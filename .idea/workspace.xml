@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/MainUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/UI/MainUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="139">
-              <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+            <state relative-caret-position="144">
+              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
             </state>
           </provider>
         </entry>
@@ -26,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/UI/MainUIBuilder_support.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="365">
+              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
             </state>
           </provider>
         </entry>
@@ -52,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/UI/MainUI.py" />
         <option value="$PROJECT_DIR$/UI/MainUIBuilder_support.py" />
+        <option value="$PROJECT_DIR$/UI/MainUI.py" />
       </list>
     </option>
   </component>
@@ -67,7 +70,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="203" />
     <option name="y" value="56" />
     <option name="width" value="1400" />
@@ -99,6 +102,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RunDashboard">
@@ -177,7 +181,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
@@ -202,15 +206,15 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/UI/MainUI.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="139">
-          <caret line="14" column="28" lean-forward="true" selection-start-line="14" selection-start-column="28" selection-end-line="14" selection-end-column="28" />
+        <state relative-caret-position="144">
+          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/UI/MainUIBuilder_support.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+        <state relative-caret-position="365">
+          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
         </state>
       </provider>
     </entry>
