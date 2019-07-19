@@ -2,12 +2,23 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/UI/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.py.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.py.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder_support.py.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Prediction Page.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/__init__.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,20 +29,36 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/MainUI.py">
+        <entry file="file://$PROJECT_DIR$/UI/python files/MainUI.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+            <state relative-caret-position="493">
+              <caret line="29" selection-start-line="29" selection-end-line="29" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UI/MainUIBuilder_support.py">
+        <entry file="file://$PROJECT_DIR$/UI/python files/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="229">
+              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-136" />
           </provider>
         </entry>
       </file>
@@ -47,6 +74,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>MainUIBuilder_support</find>
+      <find>scrollbar</find>
+      <find>listbox</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -57,24 +86,16 @@
       <list>
         <option value="$PROJECT_DIR$/UI/MainUIBuilder_support.py" />
         <option value="$PROJECT_DIR$/UI/MainUI.py" />
+        <option value="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" />
+        <option value="$PROJECT_DIR$/UI/python files/test.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectConfigurationFiles">
-    <option name="files">
-      <list>
-        <option value="$PROJECT_DIR$/.idea/Client.iml" />
-        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
-        <option value="$PROJECT_DIR$/.idea/misc.xml" />
-        <option value="$PROJECT_DIR$/.idea/modules.xml" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="203" />
-    <option name="y" value="56" />
-    <option name="width" value="1400" />
-    <option name="height" value="820" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1311" />
+    <option name="y" value="62" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -93,6 +114,12 @@
               <item name="Client" type="462c0819:PsiDirectoryNode" />
               <item name="UI" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Client" type="462c0819:PsiDirectoryNode" />
+              <item name="UI" type="462c0819:PsiDirectoryNode" />
+              <item name="python files" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -104,6 +131,13 @@
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\page file" />
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -130,7 +164,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/MainUI.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\yangz\Documents\GitHub\Client\UI\python files\MainUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -151,7 +185,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/MainUIBuilder_support.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\yangz\Documents\GitHub\Client\UI\python files\MainUIBuilder_support.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -181,16 +215,16 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1616" height="876" extended-state="7" />
+    <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -204,17 +238,29 @@
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UI/MainUI.py">
+    <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="72" column="54" selection-start-line="72" selection-start-column="54" selection-end-line="72" selection-end-column="54" />
+        <state relative-caret-position="229">
+          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/UI/MainUIBuilder_support.py">
+    <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="39" lean-forward="true" selection-start-line="39" selection-end-line="39" />
+        <state relative-caret-position="-136" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/python files/MainUI.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/UI/python files/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
