@@ -2,67 +2,56 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/python files/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.py.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.py.bak2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.py.bak3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test_support.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/test_support.py.bak1" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUI.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.py.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.py.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl.bak3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/MainUIBuilder_support.py.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Prediction Page.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/__init__.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.obj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/lab11.lastbuildstate" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.command.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.read.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.write.1.tlog" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/vc141.idb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/vc141.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Person.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj.filters" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj.user" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/test.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/python files/MainUI.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="493">
-              <caret line="29" selection-start-line="29" selection-end-line="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/UI/python files/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="229">
-              <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-136" />
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -71,70 +60,24 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>MainUIBuilder_support</find>
-      <find>scrollbar</find>
-      <find>listbox</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/UI/MainUIBuilder_support.py" />
-        <option value="$PROJECT_DIR$/UI/MainUI.py" />
-        <option value="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" />
-        <option value="$PROJECT_DIR$/UI/python files/test.py" />
-      </list>
-    </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1311" />
-    <option name="y" value="62" />
-    <option name="width" value="1616" />
-    <option name="height" value="876" />
-  </component>
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="Client" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Client" type="462c0819:PsiDirectoryNode" />
-              <item name="UI" type="462c0819:PsiDirectoryNode" />
-              <item name="python files" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="Scope" />
-    </panes>
+  <component name="ProjectId" id="1OSv99h33o8TUfTOUTa3rPHDBO3" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\uitest" />
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\test" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\page file" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
     </key>
@@ -151,8 +94,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainUIBuilder_support">
-    <configuration name="MainUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.MainUIBuilder">
+    <configuration name="MainUIBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -160,11 +103,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\yangz\Documents\GitHub\Client\UI\python files\MainUI.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -173,7 +116,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MainUIBuilder_support" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_support" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -181,11 +124,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/uitest" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\yangz\Documents\GitHub\Client\UI\python files\MainUIBuilder_support.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/uitest/test_support.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -194,10 +137,77 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/newtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/newtest/ttt.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ttt_support" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/newtest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest in test_support.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="Client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/uitest" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/UI/python files/uitest/test_support.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest in test_support.py" />
+      <item itemvalue="Python.test_support" />
+      <item itemvalue="Python.ttt_support" />
+      <item itemvalue="Python.ttt" />
+      <item itemvalue="Python.MainUIBuilder" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.MainUIBuilder_support" />
-        <item itemvalue="Python.MainUI" />
+        <item itemvalue="Python.MainUIBuilder" />
+        <item itemvalue="Python.test_support" />
+        <item itemvalue="Python.ttt" />
+        <item itemvalue="Python.ttt_support" />
+        <item itemvalue="Python tests.pytest in test_support.py" />
       </list>
     </recent_temporary>
   </component>
@@ -214,55 +224,20 @@
     </task>
     <servers />
   </component>
-  <component name="ToolWindowManager">
-    <frame x="1592" y="-8" width="1616" height="876" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24968314" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32974428" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39973083" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Terminal" order="8" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info anchor="bottom" id="Python Console" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-    </layout>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="31" column="26" selection-start-line="31" selection-start-column="26" selection-end-line="31" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-136" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/python files/MainUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" selection-start-line="29" selection-end-line="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/UI/python files/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>

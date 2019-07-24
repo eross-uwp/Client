@@ -1,6 +1,0 @@
-﻿  lab11.cpp
-c:\users\zhiwe\documents\uw-platteville\2018 fall\csse\cs\cs2630\lab11\lab11\lab11.cpp(74): warning C4326: return type of 'main' should be 'int' instead of 'void'
-c:\users\zhiwe\documents\uw-platteville\2018 fall\csse\cs\cs2630\lab11\lab11\lab11.cpp(93): warning C4018: '<': signed/unsigned mismatch
-c:\users\zhiwe\documents\uw-platteville\2018 fall\csse\cs\cs2630\lab11\lab11\lab11.cpp(103): warning C4018: '<': signed/unsigned mismatch
-c:\users\zhiwe\documents\uw-platteville\2018 fall\csse\cs\cs2630\lab11\lab11\lab11.cpp(106): warning C4018: '<': signed/unsigned mismatch
-  lab11.vcxproj -> C:\Users\zhiwe\Documents\UW-Platteville\2018 FALL\CSSE\cs\CS2630\lab11\Debug\lab11.exe

@@ -6,7 +6,7 @@
 #    Jul 24, 2019 04:35:32 PM CDT  platform: Windows NT
 
 import sys
-import pandas as pd
+
 try:
     import Tkinter as tk
 except ImportError:
@@ -105,12 +105,6 @@ class Toplevel1:
         self.course_list_slb.configure(selectbackground="#c4c4c4")
         self.course_list_slb.configure(selectforeground="black")
         self.course_list_slb.configure(width=10)
-
-        courses = pd.read_csv('C:\\Users\\yangz\\Documents\\GitHub\\Server\\Data\\unique_courses.csv')
-        count = 0
-        for each_course in courses['courses'].values:
-            self.course_list_slb.insert(count, each_course)
-            count = + 1
 
         self.course_list_lbl = ttk.Label(top)
         self.course_list_lbl.place(relx=0.08, rely=0.027, height=19, width=62)
@@ -351,6 +345,8 @@ def _on_shiftmouse(event, widget):
 
 if __name__ == '__main__':
     vp_start_gui()
+
+
 
 
 
