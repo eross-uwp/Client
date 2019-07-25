@@ -60,6 +60,8 @@ def destroy_Toplevel1():
 class Toplevel1:
     def __init__(self, top=None):
         self.prereq_storage = {}
+        self.prereq_grade_df = None
+
         '''This class configures and populates the toplevel window.
            top is the toplevel containing window.'''
         _bgcolor = '#d9d9d9'  # X11 color: 'gray85'
@@ -95,6 +97,7 @@ class Toplevel1:
         self.predict_btn.configure(highlightcolor="black")
         self.predict_btn.configure(pady="0")
         self.predict_btn.configure(text='''Predict''')
+        self.predict_btn.configure(command=self.predict_callback)
 
         self.menubar = tk.Menu(top, font=font9, bg=_bgcolor, fg=_fgcolor)
         top.configure(menu=self.menubar)
@@ -257,6 +260,19 @@ class Toplevel1:
             print(self.grade_ety.get())
             return
         return
+
+    def predict_callback(self):
+        try:
+            index_list = []
+            index_list.extend(range(len(self.prereq_storage)))
+            X = pd.DataFrame(list(self.prereq_storage.items()), index=index_list)
+            model = joblib.load()s
+            y = model.predict(X)
+
+        except IndexError:
+            return
+        return
+
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.

@@ -49,7 +49,7 @@ def fill_prereq(prereq_slb, prereq_type, course_name):
         for each_course in prereqs:
             prereq_slb.insert(count, each_course)
             count = + 1
-
+s
 
 def tt():
     print('aaa')
