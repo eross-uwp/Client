@@ -5,6 +5,8 @@
       <sourceFolder url="file://$MODULE_DIR$/UI" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UI/python files" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UI/python files/uitest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UI/python files/newtest" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/UI/python files/TreeScripts" isTestSource="false" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7 (Server)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />

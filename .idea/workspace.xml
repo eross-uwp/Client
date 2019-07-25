@@ -2,50 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.output" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.py.bak1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.py.bak2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.py.bak3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.tcl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak1" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test.tcl.bak3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test_support.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/test_support.py.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/TreeScripts/FindGradeForCourse.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/TreeScripts/Node.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/TreeScripts/TreeMaker.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/python files/newtest/MainUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/python files/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.obj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/CL.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/lab11.lastbuildstate" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.command.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.read.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/lab11.tlog/link.write.1.tlog" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/vc141.idb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Debug/vc141.pdb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/Person.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.cpp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj.filters" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/lab11/lab11.vcxproj.user" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/test.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,11 +47,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\newtest" />
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\uitest" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\test" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\page file" />
-      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -179,7 +155,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest in test_support.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="pytest in C:/Users/yangz/Documents/GitHub/Client/UI/python files/uitest/test_support.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,19 +171,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_support.py" />
       <item itemvalue="Python.test_support" />
       <item itemvalue="Python.ttt_support" />
       <item itemvalue="Python.ttt" />
       <item itemvalue="Python.MainUIBuilder" />
+      <item itemvalue="Python tests.pytest in C:/Users/yangz/Documents/GitHub/Client/UI/python files/uitest/test_support.py" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainUIBuilder" />
-        <item itemvalue="Python.test_support" />
         <item itemvalue="Python.ttt" />
+        <item itemvalue="Python.test_support" />
         <item itemvalue="Python.ttt_support" />
-        <item itemvalue="Python tests.pytest in test_support.py" />
+        <item itemvalue="Python tests.pytest in C:/Users/yangz/Documents/GitHub/Client/UI/python files/uitest/test_support.py" />
       </list>
     </recent_temporary>
   </component>
@@ -239,5 +215,31 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UI/python files/MainUI.py</url>
+          <line>27</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
+          <line>249</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
+          <line>253</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="PythonConfigurationType">
+        <watch expression="self.prereq_storage" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

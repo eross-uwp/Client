@@ -6,7 +6,7 @@
 #    Jul 24, 2019 11:49:12 AM CDT  platform: Windows NT
 
 import sys
-import pandas as pd
+import MainUI
 
 try:
     import Tkinter as tk
@@ -81,11 +81,12 @@ class Toplevel1:
         self.Scrolledlistbox1.configure(selectforeground="black")
         self.Scrolledlistbox1.configure(width=10)
 
-        courses = pd.read_csv('C:\\Users\\yangz\\Documents\\GitHub\\Server\\Data\\unique_courses.csv')
-        count = 0
-        for each_course in courses['courses'].values:
-            self.Scrolledlistbox1.insert(count, each_course)
-            count =+ 1
+        MainUI.fill_course_list(self)
+        # courses = pd.read_csv('C:\\Users\\yangz\\Documents\\GitHub\\Server\\Data\\unique_courses.csv')
+        # count = 0
+        # for each_course in courses['courses'].values:
+        #     self.Scrolledlistbox1.insert(count, each_course)
+        #     count =+ 1
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.
