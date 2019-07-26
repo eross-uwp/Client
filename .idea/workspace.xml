@@ -1,23 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
-    </list>
+    <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
