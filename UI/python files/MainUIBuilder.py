@@ -91,6 +91,7 @@ class Toplevel1:
         self.predict_btn.configure(highlightcolor="black")
         self.predict_btn.configure(pady="0")
         self.predict_btn.configure(text='''Predict''')
+        self.predict_btn.configure(command=self.predict_callback)
 
         self.menubar = tk.Menu(top, font=font9, bg=_bgcolor, fg=_fgcolor)
         top.configure(menu=self.menubar)
@@ -190,9 +191,11 @@ class Toplevel1:
         self.prereq_slb.configure(selectforeground="black")
         self.prereq_slb.configure(width=10)
 
-        self.termgpa_ety = tk.Entry(top)
-        self.termgpa_ety.place(relx=0.561, rely=0.701, height=20, relwidth=0.128)
+        vcmd = (top.register(self.validate),
+                '%d', '%i', '%P', '%s', '%S', '%v', '%V', '%W')
 
+        self.termgpa_ety = tk.Entry(top, validate = 'key', validatecommand=vcmd)
+        self.termgpa_ety.place(relx=0.561, rely=0.701, height=20, relwidth=0.128)
         self.termgpa_ety.configure(background="white")
         self.termgpa_ety.configure(disabledforeground="#a3a3a3")
         self.termgpa_ety.configure(font=font10)
@@ -203,7 +206,7 @@ class Toplevel1:
         self.termgpa_ety.configure(selectbackground="#c4c4c4")
         self.termgpa_ety.configure(selectforeground="black")
 
-        self.cumulativegpa_ety = tk.Entry(top)
+        self.cumulativegpa_ety = tk.Entry(top, validate = 'key', validatecommand=vcmd)
         self.cumulativegpa_ety.place(relx=0.561, rely=0.646, height=20
                 , relwidth=0.128)
         self.cumulativegpa_ety.configure(background="white")
@@ -218,7 +221,6 @@ class Toplevel1:
 
         self.cumulativegpa_lbl = tk.Label(top)
         self.cumulativegpa_lbl.place(relx=0.427, rely=0.646, height=21, width=93)
-
         self.cumulativegpa_lbl.configure(activebackground="#f9f9f9")
         self.cumulativegpa_lbl.configure(activeforeground="black")
         self.cumulativegpa_lbl.configure(background="#d9d9d9")
@@ -227,6 +229,17 @@ class Toplevel1:
         self.cumulativegpa_lbl.configure(highlightbackground="#d9d9d9")
         self.cumulativegpa_lbl.configure(highlightcolor="black")
         self.cumulativegpa_lbl.configure(text='''Cumulative GPA''')
+
+        self.gpa_lbl = tk.Label(top)
+        self.gpa_lbl.place(relx=0.69420, rely=0.646)
+        self.gpa_lbl.configure(activebackground="#f9f9f9")
+        self.gpa_lbl.configure(activeforeground="red")
+        self.gpa_lbl.configure(background="#d9d9d9")
+        self.gpa_lbl.configure(disabledforeground="#a3a3a3")
+        self.gpa_lbl.configure(foreground="#000000")
+        self.gpa_lbl.configure(highlightbackground="#d9d9d9")
+        self.gpa_lbl.configure(highlightcolor="black")
+        self.gpa_lbl.configure(text='''Both Cumulative GPA and term GPA must be between 0 and 4''')
 
         self.termgpa_lbl = tk.Label(top)
         self.termgpa_lbl.place(relx=0.432, rely=0.701, height=21, width=60)
@@ -255,7 +268,11 @@ class Toplevel1:
                 , relwidth=0.127)
         self.struggled_cbb.configure(textvariable=MainUIBuilder_support.combobox)
         self.struggled_cbb.configure(takefocus="")
+        self.struggled_cbb.configure(state="readonly")
+        self.struggled_cbb.configure(values=["Good", "Struggled", "Extremely Struggled"])
+        self.struggled_cbb.current(0)
 
+        self.prediction = tk.IntVar()
         self.root_rbtn = tk.Radiobutton(top)
         self.root_rbtn.place(relx=0.436, rely=0.096, relheight=0.034
                 , relwidth=0.047)
@@ -268,6 +285,8 @@ class Toplevel1:
         self.root_rbtn.configure(highlightcolor="black")
         self.root_rbtn.configure(justify='left')
         self.root_rbtn.configure(text='''Root''')
+        self.root_rbtn.configure(variable=self.prediction)
+        self.root_rbtn.configure(value=0)
 
         self.all_rbtn = tk.Radiobutton(top)
         self.all_rbtn.place(relx=0.543, rely=0.096, relheight=0.034
@@ -281,6 +300,8 @@ class Toplevel1:
         self.all_rbtn.configure(highlightcolor="black")
         self.all_rbtn.configure(justify='left')
         self.all_rbtn.configure(text='''All''')
+        self.all_rbtn.configure(variable=self.prediction)
+        self.all_rbtn.configure(value=1)
 
         self.imme_rbtn = tk.Radiobutton(top)
         self.imme_rbtn.place(relx=0.623, rely=0.096, relheight=0.034
@@ -294,9 +315,11 @@ class Toplevel1:
         self.imme_rbtn.configure(highlightcolor="black")
         self.imme_rbtn.configure(justify='left')
         self.imme_rbtn.configure(text='''Immediate''')
+        self.imme_rbtn.configure(variable=self.prediction)
+        self.imme_rbtn.configure(value=2)
 
     def select_callback(self):
-        type = 'root'
+        type = self.which_prediction()
         try:
             MainUI.fill_prereq(self.prereq_slb, type, self.course_list_slb.get(self.course_list_slb.curselection()[0]))
             MainUI.tt()
@@ -317,41 +340,58 @@ class Toplevel1:
 
     def predict_callback(self):
         try:
-            index_list = []
-            index_list.extend(range(len(self.prereq_storage)))
+            if 0 <= self.termgpa_ety.get() <= 4 and \
+                    0 <= self.cumulativegpa_ety.get() <= 4:
+                prerequisites = list(self.prereq_storage.items())
+                X = pd.DataFrame()
+                for course in prerequisites:
+                    X[course[0]] = ''
+                    X.at[0, course[0]] = course[1]
 
-            prerequisites = list(self.prereq_storage.items())
-            X = pd.DataFrame()
-            for course in prerequisites:
-                X[course[0]] = ''
-                X.at[0, course[0]] = course[1]
+                X['cumulative_gpa'] = ''
+                X.at[0, 'cumulative_gpa'] = int(self.cumulativegpa_ety.get())
 
-            X['cumulative_gpa'] = ''
-            X.at[0, 'cumulative_gpa'] = self.cumulativegpa_ety.get()
+                X['prev_term_gpa'] = ''
+                X.at[0, 'prev_term_gpa'] = int(self.termgpa_ety.get())
 
-            X['prev_term_gpa'] = ''
-            X.at[0, 'prev_term_gpa'] = self.termgpa_ety.get()
+                X['struggle'] = ''
+                X.at[0, 'struggle'] = self.determine_struggle(self.struggled_cbb.get())
 
-            X['struggle'] = ''
-            X.at[0, 'struggle'] = self.struggled_cbb.get()
+                model_type = self.which_prediction()
 
-            model_type = self.which_prediction()
+                model = joblib.load('..\\Data\\models\\' + 'GBT_model_' + model_type + '.eross')
 
-            model = joblib.load('..\\Data\\models\\' + 'GBT_model_' + model_type + '.eross')
-
-            y = model.predict(X)
+                y = model.predict(X)
 
         except IndexError:
             return
         return
 
     def which_prediction(self):
-        if self.root_check.get() == 1:
+        if self.prediction.get() == 0:
             return "root"
-        elif self.all_check.get() == 1:
+        elif self.prediction.get() == 1:
             return "all"
-        elif self.immediate_check.get() == 1:
-            return "immediate"
+        elif self.prediction.get() == 2:
+            return "imme"
+
+    def determine_struggle(self, string_struggle):
+        if string_struggle == "Good":
+            return 3
+        if string_struggle == "Struggled":
+            return 2
+        return 1
+
+    def validate(self, action, index, value_if_allowed,
+                       prior_value, text, validation_type, trigger_type, widget_name):
+        if value_if_allowed:
+            try:
+                float(value_if_allowed)
+                return True
+            except ValueError:
+                return False
+        else:
+            return False
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.

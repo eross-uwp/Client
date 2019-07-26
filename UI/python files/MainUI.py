@@ -19,10 +19,8 @@ __COMBINED_COURSE_STRUCTURE_FILEPATH = '..\\Data\\combined_course_structure.csv'
 
 def fill_course_list(course_list_slb):
     courses = pd.read_csv('..\\Data\\unique_courses.csv')
-    count = 0
     for each_course in courses['courses'].values:
-        course_list_slb.insert(count, each_course)
-        count = + 1
+        course_list_slb.insert(tk.END, each_course)
 
 
 def fill_prereq(prereq_slb, prereq_type, course_name):
