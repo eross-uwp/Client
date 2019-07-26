@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all.eross" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root.eross" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ttt.output" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ttt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ttt.py.bak1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ttt.tcl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/ttt_support.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.py.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.py.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.py.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.py.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.py.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.py.bak3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.tcl.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/test.tcl.bak3" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -32,19 +49,20 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/UI/python files/newtest" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\newtest" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\uitest" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\test" />
       <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\page file" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files\newtest" />
+      <recent name="C:\Users\yangz\Documents\GitHub\Client\UI\python files" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -59,7 +77,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.MainUIBuilder">
+  <component name="RunManager" selected="Python.ttt_support">
     <configuration name="MainUIBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -168,10 +186,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.ttt_support" />
         <item itemvalue="Python.MainUIBuilder" />
         <item itemvalue="Python.ttt" />
         <item itemvalue="Python.test_support" />
-        <item itemvalue="Python.ttt_support" />
         <item itemvalue="Python tests.pytest in C:/Users/yangz/Documents/GitHub/Client/UI/python files/uitest/test_support.py" />
       </list>
     </recent_temporary>
