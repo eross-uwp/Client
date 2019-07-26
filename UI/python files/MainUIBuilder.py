@@ -328,12 +328,21 @@ class Toplevel1:
         try:
             index_list = []
             index_list.extend(range(len(self.prereq_storage)))
-            X = pd.DataFrame(list(self.prereq_storage.items()), index=index_list).transpose()
-            columns_for_adding = X.at[0, :]
-            X.columns = columns_for_adding
 
-            columns_for_adding = ['cumulative_gpa', 'prev_term_gpa', 'struggle']
-            pd.DataFrame()
+            prerequisites = list(self.prereq_storage.items())
+            X = pd.DataFrame()
+            for course in prerequisites:
+                X[course[0]] = ''
+                X.at[0, course[0]] = course[1]
+
+            X['cumulative_gpa'] = ''
+            # X.at[0, 'cumulative_gpa'] =
+
+            X['prev_term_gpa'] = ''
+            # X.at[0, 'cumulative_gpa'] =
+
+            X['struggle'] = ''
+            # X.at[0, 'cumulative_gpa'] =
 
             model = joblib.load()
             # s
