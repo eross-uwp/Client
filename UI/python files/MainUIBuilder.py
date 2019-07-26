@@ -336,24 +336,27 @@ class Toplevel1:
                 X.at[0, course[0]] = course[1]
 
             X['cumulative_gpa'] = ''
-            # X.at[0, 'cumulative_gpa'] =
+            X.at[0, 'cumulative_gpa'] = self.cumulativegpa_ety.get()
 
             X['prev_term_gpa'] = ''
-            # X.at[0, 'cumulative_gpa'] =
+            X.at[0, 'prev_term_gpa'] = self.termgpa_ety.get()
 
             X['struggle'] = ''
-            # X.at[0, 'cumulative_gpa'] =
+            X.at[0, 'struggle'] = self.struggled_cbb.get()
 
-            model = joblib.load()
-            # s
-            # y = model.predict(X)
+            model_type = self.which_prediction()
+
+            model = joblib.load('..\\Data\\models\\' + 'GBT_model_' + model_type + '.eross')
+
+            y = model.predict(X)
 
         except IndexError:
             return
         return
 
-    # def which_prediction(self):
-    #     if self.root_cbtn.
+    def which_prediction(self):
+
+        return prediction_type
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.
