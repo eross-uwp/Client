@@ -61,7 +61,7 @@ class Toplevel1:
     def __init__(self, top=None):
         self.prereq_storage = {}
         self.prereq_grade_df = None
-        self.root_cbtn
+        # self.root_cbtn
 
         '''This class configures and populates the toplevel window.
            top is the toplevel containing window.'''
@@ -343,8 +343,8 @@ class Toplevel1:
             return
         return
 
-    def which_prediction(self):
-        if self.root_cbtn.
+    # def which_prediction(self):
+    #     if self.root_cbtn.
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.

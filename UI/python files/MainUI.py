@@ -13,12 +13,12 @@ except ImportError:
     import tkinter.ttk as ttk
     py3 = True
 
-__COMBINED_COURSE_STRUCTURE_FILEPATH = 'C:\\Users\\yangz\\Documents\\GitHub\\Server\Data\\combined_course_structure.csv'
+__COMBINED_COURSE_STRUCTURE_FILEPATH = '..\\Data\\combined_course_structure.csv'
 
 
 
 def fill_course_list(course_list_slb):
-    courses = pd.read_csv('C:\\Users\\yangz\\Documents\\GitHub\\Server\\Data\\unique_courses.csv')
+    courses = pd.read_csv('..\\Data\\unique_courses.csv')
     count = 0
     for each_course in courses['courses'].values:
         course_list_slb.insert(count, each_course)
