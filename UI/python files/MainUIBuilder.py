@@ -9,6 +9,7 @@ import sys
 import pandas as pd
 import MainUI
 import joblib
+import Pred
 
 try:
     import Tkinter as tk
@@ -340,8 +341,10 @@ class Toplevel1:
 
     def predict_callback(self):
         try:
-            if 0 <= self.termgpa_ety.get() <= 4 and \
-                    0 <= self.cumulativegpa_ety.get() <= 4:
+            term_gpa = float(self.termgpa_ety.get())
+            cumulative_gpa = float(self.cumulativegpa_ety.get())
+            if 0 <= term_gpa <= 4 and \
+                    0 <= cumulative_gpa <= 4:
                 prerequisites = list(self.prereq_storage.items())
                 X = pd.DataFrame()
                 for course in prerequisites:
@@ -361,7 +364,10 @@ class Toplevel1:
 
                 model = joblib.load('..\\Data\\models\\' + 'GBT_model_' + model_type + '.eross')
 
-                y = model.predict(X)
+                y = model.predict_prob(X)
+                list_to_pass = ["postreq here"]
+                list_to_pass.append(y)
+                Pred.vp_start_gui(y)
 
         except IndexError:
             return
