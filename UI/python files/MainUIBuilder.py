@@ -52,6 +52,7 @@ def destroy_Toplevel1():
 
 class Toplevel1:
     def __init__(self, top=None):
+        self.postreq = ""
         self.prereq_storage = {}
         self.prereq_grade_df = None
 
@@ -323,6 +324,7 @@ class Toplevel1:
         type = self.which_prediction()
         try:
             MainUI.fill_prereq(self.prereq_slb, type, self.course_list_slb.get(self.course_list_slb.curselection()[0]))
+            self.postreq = self.course_list_slb.get(self.course_list_slb.curselection()[0])
             MainUI.tt()
         except IndexError:
             return
@@ -365,7 +367,7 @@ class Toplevel1:
                 model = joblib.load('..\\Data\\models\\' + 'GBT_model_' + model_type + '.eross')
 
                 y = model.predict_prob(X)
-                list_to_pass = ["postreq here"]
+                list_to_pass = [self.postreq]
                 list_to_pass.append(y)
                 Pred.vp_start_gui(y)
 
