@@ -36,7 +36,7 @@ def fill_prereq(prereq_slb, prereq_type, course_name):
             if k.does_have_prereq() == 1:
                 prereqs.remove(k)
         for each_course in prereqs:
-            prereq_slb.insert(count, each_course)
+            prereq_slb.insert(count, each_course.get_name())
             count = + 1
 
     if prereq_type is 'all':
@@ -47,9 +47,9 @@ def fill_prereq(prereq_slb, prereq_type, course_name):
     if prereq_type is 'imme':
         prereqs = tree.get_immediate_prereqs()
         for each_course in prereqs:
-            prereq_slb.insert(count, each_course)
+            prereq_slb.insert(count, each_course.get_name())
             count = + 1
-s
+
 
 def tt():
     print('aaa')

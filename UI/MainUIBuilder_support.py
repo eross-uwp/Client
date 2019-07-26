@@ -6,6 +6,7 @@
 #    Jul 17, 2019 11:32:14 AM CDT  platform: Windows NT
 #    Jul 19, 2019 01:51:10 PM CDT  platform: Windows NT
 #    Jul 24, 2019 04:25:14 PM CDT  platform: Windows NT
+#    Jul 26, 2019 09:01:02 AM CDT  platform: Windows NT
 
 import sys
 
@@ -28,6 +29,8 @@ def set_Tk_var():
     che48 = tk.StringVar()
     global che49
     che49 = tk.StringVar()
+    global combobox
+    combobox = tk.StringVar()
 
 def init(top, gui, *args, **kwargs):
     global w, top_level, root
