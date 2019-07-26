@@ -61,7 +61,6 @@ class Toplevel1:
     def __init__(self, top=None):
         self.prereq_storage = {}
         self.prereq_grade_df = None
-        # self.root_cbtn
 
         '''This class configures and populates the toplevel window.
            top is the toplevel containing window.'''
@@ -200,6 +199,7 @@ class Toplevel1:
         self.remove_btn.configure(pady="0")
         self.remove_btn.configure(text='''Remove''')
 
+        self.root_check = tk.IntVar()
         self.root_cbtn = tk.Checkbutton(top)
         self.root_cbtn.place(relx=0.445, rely=0.096, relheight=0.034
                              , relwidth=0.047)
@@ -212,9 +212,10 @@ class Toplevel1:
         self.root_cbtn.configure(highlightcolor="black")
         self.root_cbtn.configure(justify='left')
         self.root_cbtn.configure(text='''Root''')
-        self.root_cbtn.configure(variable=MainUIBuilder_support.che47)
+        self.root_cbtn.configure(variable=self.root_check)
         self.root_cbtn.configure(width=53)
 
+        self.all_check = tk.IntVar()
         self.all_cbtn = tk.Checkbutton(top)
         self.all_cbtn.place(relx=0.588, rely=0.096, relheight=0.034
                             , relwidth=0.037)
@@ -227,8 +228,9 @@ class Toplevel1:
         self.all_cbtn.configure(highlightcolor="black")
         self.all_cbtn.configure(justify='left')
         self.all_cbtn.configure(text='''All''')
-        self.all_cbtn.configure(variable=MainUIBuilder_support.che48)
+        self.all_cbtn.configure(variable=self.all_check)
 
+        self.immediate_check = tk.IntVar()
         self.imme_cbtn = tk.Checkbutton(top)
         self.imme_cbtn.place(relx=0.65, rely=0.096, relheight=0.034
                              , relwidth=0.076)
@@ -241,7 +243,7 @@ class Toplevel1:
         self.imme_cbtn.configure(highlightcolor="black")
         self.imme_cbtn.configure(justify='left')
         self.imme_cbtn.configure(text='''Immediate''')
-        self.imme_cbtn.configure(variable=MainUIBuilder_support.che49)
+        self.imme_cbtn.configure(variable=self.immediate_check)
 
         self.prereq_slb = ScrolledListBox(top)
         self.prereq_slb.place(relx=0.427, rely=0.137, relheight=0.474
@@ -355,8 +357,12 @@ class Toplevel1:
         return
 
     def which_prediction(self):
-
-        return prediction_type
+        if self.root_check.get() == 1:
+            return "root"
+        elif self.all_check.get() == 1:
+            return "all"
+        elif self.immediate_check.get() == 1:
+            return "immediate"
 
 
 # The following code is added to facilitate the Scrolled widgets you specified.
