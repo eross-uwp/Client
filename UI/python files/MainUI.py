@@ -23,8 +23,7 @@ def fill_course_list(course_list_slb):
         course_list_slb.insert(tk.END, each_course)
 
 
-def fill_prereq(prereq_slb, prereq_type, course_name):
-    prereq_slb.delete(0, tk.END)
+def get_prereqs(prereq_type, course_name):
     prerequisites = []
     prerequisite_tree_maker = TreeMaker(__COMBINED_COURSE_STRUCTURE_FILEPATH)
     tree = prerequisite_tree_maker.process(course_name)
@@ -49,9 +48,7 @@ def fill_prereq(prereq_slb, prereq_type, course_name):
             if check_duplicates(prerequisites, each_course.get_name()):
                 prerequisites.append(each_course.get_name())
 
-    for course in prerequisites:
-        prereq_slb.insert(tk.END, course)
-
+    return prerequisites
 def check_duplicates(prereqs, course):
     for item in prereqs:
         if course == item:

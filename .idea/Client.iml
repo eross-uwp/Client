@@ -8,7 +8,7 @@
       <sourceFolder url="file://$MODULE_DIR$/UI/python files/TreeScripts" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/UI/python files" isTestSource="false" />
     </content>
-    <orderEntry type="jdk" jdkName="Python 3.7 (Server)" jdkType="Python SDK" />
+    <orderEntry type="jdk" jdkName="Python 3.7 (2)" jdkType="Python SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
   <component name="TestRunnerService">

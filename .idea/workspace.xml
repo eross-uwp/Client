@@ -2,33 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/python files/Pred_S.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_all.eross" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_imme.eross" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_root.eross" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.output" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.output" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.py.bak3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl.bak3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py.bak3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak1" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak2" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.output" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/Pred.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.py.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.py.bak2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.py.bak3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.tcl" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test.tcl.bak3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/test_support.py.bak1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/ttt.output" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/ttt.py.bak1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/unique_courses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/unique_courses.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,8 +37,10 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PythonContentEntriesConfigurable" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="ignore.virus.scanning.warn.message" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Server" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -82,7 +67,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Pred_S">
+  <component name="RunManager" selected="Python.MainUIBuilder">
     <configuration name="MainUIBuilder" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -95,7 +80,30 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Pred" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="Client" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/Pred.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -116,6 +124,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/Pred_S.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -125,7 +134,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_support" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="ttt (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Client" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -133,32 +142,12 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/uitest" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/uitest/test_support.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="ttt" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="Client" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/UI/python files/newtest" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/newtest/ttt.py" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/ttt.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -179,6 +168,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
@@ -189,19 +179,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.test_support" />
       <item itemvalue="Python.ttt_support" />
-      <item itemvalue="Python.ttt" />
       <item itemvalue="Python.MainUIBuilder" />
       <item itemvalue="Python.Pred_S" />
+      <item itemvalue="Python.ttt (1)" />
+      <item itemvalue="Python.Pred" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.MainUIBuilder" />
+        <item itemvalue="Python.Pred" />
+        <item itemvalue="Python.ttt (1)" />
         <item itemvalue="Python.Pred_S" />
         <item itemvalue="Python.ttt_support" />
-        <item itemvalue="Python.MainUIBuilder" />
-        <item itemvalue="Python.ttt" />
-        <item itemvalue="Python.test_support" />
       </list>
     </recent_temporary>
   </component>
@@ -215,8 +205,12 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1563304541493</updated>
+      <workItem from="1564429363215" duration="3726000" />
     </task>
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -238,11 +232,6 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
-          <line>330</line>
-          <option name="timeStamp" value="18" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UI/python files/Pred_S.py</url>
           <line>35</line>
           <option name="timeStamp" value="19" />
@@ -253,9 +242,14 @@
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UI/python files/Pred.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="21" />
+          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
+          <line>382</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
+          <line>380</line>
+          <option name="timeStamp" value="32" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -265,5 +259,10 @@
         <watch expression="columns_for_adding" />
       </configuration>
     </watches-manager>
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/Client$Pred.coverage" NAME="Pred Coverage Results" MODIFIED="1564429986131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
+    <SUITE FILE_PATH="coverage/Client$ttt__1_.coverage" NAME="ttt (1) Coverage Results" MODIFIED="1564429434070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
+    <SUITE FILE_PATH="coverage/Client$MainUIBuilder.coverage" NAME="MainUIBuilder Coverage Results" MODIFIED="1564433135082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
   </component>
 </project>
