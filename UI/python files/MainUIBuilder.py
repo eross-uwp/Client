@@ -85,7 +85,7 @@ class Toplevel1:
         top.configure(highlightcolor="black")
 
         self.predict_btn = tk.Button(top)
-        self.predict_btn.place(relx=0.623, rely=0.893, height=24, width=48)
+        self.predict_btn.place(relx=0.597, rely=0.852, height=24, width=48)
         self.predict_btn.configure(activebackground="#ececec")
         self.predict_btn.configure(activeforeground="#000000")
         self.predict_btn.configure(background="#d9d9d9")
@@ -356,6 +356,42 @@ class Toplevel1:
         self.prereq_grade_entry_lbl.configure(text='''Prerequisite Grade''')
         self.prereq_grade_entry_lbl.configure(width=107)
 
+        self.predictive_model = tk.IntVar()
+
+        self.gbt_radio = tk.Radiobutton(top)
+        self.gbt_radio.place(relx=0.65, rely=0.838, relheight=0.034
+                             , relwidth=0.176)
+        self.gbt_radio.configure(activebackground="#ececec")
+        self.gbt_radio.configure(activeforeground="#000000")
+        self.gbt_radio.configure(anchor='w')
+        self.gbt_radio.configure(background="#d9d9d9")
+        self.gbt_radio.configure(disabledforeground="#a3a3a3")
+        self.gbt_radio.configure(foreground="#000000")
+        self.gbt_radio.configure(highlightbackground="#d9d9d9")
+        self.gbt_radio.configure(highlightcolor="black")
+        self.gbt_radio.configure(justify='left')
+        self.gbt_radio.configure(text='''Gradient Boosted Trees Classifier''')
+        self.gbt_radio.configure(width=198)
+        self.gbt_radio.configure(variable=self.predictive_model)
+        self.gbt_radio.configure(value=0)
+
+        self.lr_radio = tk.Radiobutton(top)
+        self.lr_radio.place(relx=0.65, rely=0.879, relheight=0.034
+                            , relwidth=0.176)
+        self.lr_radio.configure(activebackground="#ececec")
+        self.lr_radio.configure(activeforeground="#000000")
+        self.lr_radio.configure(anchor='w')
+        self.lr_radio.configure(background="#d9d9d9")
+        self.lr_radio.configure(disabledforeground="#a3a3a3")
+        self.lr_radio.configure(foreground="#000000")
+        self.lr_radio.configure(highlightbackground="#d9d9d9")
+        self.lr_radio.configure(highlightcolor="black")
+        self.lr_radio.configure(justify='left')
+        self.lr_radio.configure(text='''Logistic Regression''')
+        self.lr_radio.configure(width=198)
+        self.lr_radio.configure(variable=self.predictive_model)
+        self.lr_radio.configure(value=1)
+
     def prereq_select_callback(self, evt):
         self.grade_entry_combobox.current(0)
 
@@ -363,7 +399,7 @@ class Toplevel1:
         if evt == 'root' or evt == 'imme' or evt == 'all':
             self.model_type = evt
             self.course_list_slb.delete(0, tk.END)
-            MainUI.fill_course_list(self.course_list_slb, evt)
+            MainUI.fill_course_list(self.course_list_slb, self.predictive_model.get(), evt)
         try:
             self.prereq_slb.delete(0, tk.END)
             self.prereq_grades_listbox.delete(0, tk.END)
@@ -421,7 +457,12 @@ class Toplevel1:
                 X['struggle'] = ''
                 X.at[0, 'struggle'] = self.determine_struggle(self.struggled_combobox.get())
 
-                model_path = '..\\Data\\models\\GBT_model_' + self.model_type + '\\' + self.course_list_slb.get(tk.ACTIVE) + '.pkl'
+                if self.predictive_model.get() == 0:
+                    model_path = '..\\Data\\models\\GBT_model_' + self.model_type + '\\' + self.course_list_slb.get(tk.ACTIVE) + '.pkl'
+                elif self.predictive_model.get() == 1:
+                    model_path = '..\\Data\\models\\LR_model_' + self.model_type + '\\' + self.course_list_slb.get(
+                        tk.ACTIVE) + '.pkl'
+
                 model = pickle.load(open(model_path, 'rb'))
 
                 #   F,  D,  D+, C-, C,  C+, B-, B,  B+, A-, A

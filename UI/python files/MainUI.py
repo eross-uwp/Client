@@ -18,9 +18,13 @@ except ImportError:
 __COMBINED_COURSE_STRUCTURE_FILEPATH = '..\\Data\\combined_course_structure.csv'
 
 
-def fill_course_list(course_list_slb, model_type):
+def fill_course_list(course_list_slb, predictive_model, model_type):
+    if predictive_model == 0:
+        temp = 'GBT_model_'
+    else:
+        temp = 'LR_model_'
     count = 0
-    for filename in os.listdir('..\\Data\\models\\' + 'GBT_model_' + model_type):
+    for filename in os.listdir('..\\Data\\models\\' + temp + model_type):
         course_list_slb.insert(count, filename[:-4])
         count = + 1
 
