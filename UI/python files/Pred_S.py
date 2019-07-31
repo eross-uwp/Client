@@ -33,8 +33,7 @@ def destroy_window():
 
 if __name__ == '__main__':
     import Pred
-    yes = ['this course', 1.2, 1, 12, 12, 13, 14, 15, 1, 1, 2, 2]
-    Pred.vp_start_gui(yes)
+    Pred.vp_start_gui('this course', [1.2, 1, 12, 12, 13, 14, 15, 1, 1, 2, 2])
 
 
 

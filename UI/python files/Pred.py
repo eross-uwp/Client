@@ -22,11 +22,11 @@ except ImportError:
 import Pred_S
 
 
-def vp_start_gui(list_of_grades):
+def vp_start_gui(course_name, list_of_grades):
     '''Starting point when module is the main routine.'''
     global val, w, root
     root = tk.Tk()
-    top = Toplevel1(root, list_of_grades)
+    top = Toplevel1(root, course_name, list_of_grades)
     Pred_S.init(root, top)
     root.mainloop()
 
@@ -47,7 +47,8 @@ def destroy_Toplevel1():
     w = None
 
 class Toplevel1:
-    def __init__(self, top=None, list_of_grades=None):
+    def __init__(self, top=None, course_name=None, list_of_grades=None):
+        self.course_name = course_name
         self.list_of_grades = list_of_grades
         '''This class configures and populates the toplevel window.
            top is the toplevel containing window.'''
@@ -56,6 +57,8 @@ class Toplevel1:
         _compcolor = '#d9d9d9' # X11 color: 'gray85'
         _ana1color = '#d9d9d9' # X11 color: 'gray85'
         _ana2color = '#ececec' # Closest X11 color: 'gray92'
+        font10 = "-family {Segoe UI} -size 8 -weight normal -slant " \
+        "roman -underline 0 -overstrike 0"
         font11 = "-family {Segoe UI} -size 13 -weight normal -slant "  \
             "roman -underline 0 -overstrike 0"
         self.style = ttk.Style()
@@ -68,27 +71,28 @@ class Toplevel1:
             [('selected', _compcolor), ('active',_ana2color)])
 
         top.geometry("1170x684+221+72")
-        top.title("New Toplevel")
+        top.title(course_name + ' Prediction')
         top.configure(background="#ffffff")
         top.configure(highlightbackground="#d9d9d9")
         top.configure(highlightcolor="black")
 
-        self.Button1 = tk.Button(top)
-        self.Button1.place(relx=0.846, rely=0.848, height=50, width=90)
-        self.Button1.configure(activebackground="#ececec")
-        self.Button1.configure(activeforeground="#000000")
-        self.Button1.configure(background="#d9d9d9")
-        self.Button1.configure(disabledforeground="#a3a3a3")
-        self.Button1.configure(font=font11)
-        self.Button1.configure(foreground="#000000")
-        self.Button1.configure(highlightbackground="#d9d9d9")
-        self.Button1.configure(highlightcolor="black")
-        self.Button1.configure(pady="0")
-        self.Button1.configure(text='''<< Back''')
-        self.Button1.configure(width=10)
+        self.back_button = tk.Button(top)
+        self.back_button.place(relx=0.846, rely=0.848, height=50, width=90)
+        self.back_button.configure(activebackground="#ececec")
+        self.back_button.configure(activeforeground="#000000")
+        self.back_button.configure(background="#d9d9d9")
+        self.back_button.configure(disabledforeground="#a3a3a3")
+        self.back_button.configure(font=font11)
+        self.back_button.configure(foreground="#000000")
+        self.back_button.configure(highlightbackground="#d9d9d9")
+        self.back_button.configure(highlightcolor="black")
+        self.back_button.configure(pady="0")
+        self.back_button.configure(text='''<< Back''')
+        self.back_button.configure(width=10)
+        self.back_button.configure(command=top.destroy)
 
         self.BM_lbl = tk.Label(top)
-        self.BM_lbl.place(relx=0.436, rely=0.409, height=21, width=34)
+        self.BM_lbl.place(relx=0.427, rely=0.409, height=21, width=40)
         self.BM_lbl.configure(activebackground="#f9f9f9")
         self.BM_lbl.configure(activeforeground="black")
         self.BM_lbl.configure(background="#d9d9d9")
@@ -99,7 +103,7 @@ class Toplevel1:
         self.BM_lbl.configure(text='''B-''')
 
         self.CP_lbl = tk.Label(top)
-        self.CP_lbl.place(relx=0.47, rely=0.409, height=21, width=34)
+        self.CP_lbl.place(relx=0.47, rely=0.409, height=21, width=40)
         self.CP_lbl.configure(activebackground="#f9f9f9")
         self.CP_lbl.configure(activeforeground="black")
         self.CP_lbl.configure(background="#d9d9d9")
@@ -110,7 +114,7 @@ class Toplevel1:
         self.CP_lbl.configure(text='''C+''')
 
         self.C_lbl = tk.Label(top)
-        self.C_lbl.place(relx=0.504, rely=0.409, height=21, width=34)
+        self.C_lbl.place(relx=0.513, rely=0.409, height=21, width=40)
         self.C_lbl.configure(activebackground="#f9f9f9")
         self.C_lbl.configure(activeforeground="black")
         self.C_lbl.configure(background="#d9d9d9")
@@ -121,7 +125,7 @@ class Toplevel1:
         self.C_lbl.configure(text='''C''')
 
         self.DP_lbl = tk.Label(top)
-        self.DP_lbl.place(relx=0.573, rely=0.409, height=21, width=34)
+        self.DP_lbl.place(relx=0.598, rely=0.409, height=21, width=40)
         self.DP_lbl.configure(activebackground="#f9f9f9")
         self.DP_lbl.configure(activeforeground="black")
         self.DP_lbl.configure(background="#d9d9d9")
@@ -132,7 +136,7 @@ class Toplevel1:
         self.DP_lbl.configure(text='''D+''')
 
         self.D_lbl = tk.Label(top)
-        self.D_lbl.place(relx=0.607, rely=0.409, height=21, width=34)
+        self.D_lbl.place(relx=0.641, rely=0.409, height=21, width=40)
         self.D_lbl.configure(activebackground="#f9f9f9")
         self.D_lbl.configure(activeforeground="black")
         self.D_lbl.configure(background="#d9d9d9")
@@ -143,7 +147,7 @@ class Toplevel1:
         self.D_lbl.configure(text='''D''')
 
         self.A_lbl = tk.Label(top)
-        self.A_lbl.place(relx=0.299, rely=0.409, height=21, width=34)
+        self.A_lbl.place(relx=0.256, rely=0.409, height=21, width=40)
         self.A_lbl.configure(activebackground="#f9f9f9")
         self.A_lbl.configure(activeforeground="black")
         self.A_lbl.configure(background="#d9d9d9")
@@ -154,7 +158,7 @@ class Toplevel1:
         self.A_lbl.configure(text='''A''')
 
         self.AM_lbl = tk.Label(top)
-        self.AM_lbl.place(relx=0.333, rely=0.409, height=21, width=34)
+        self.AM_lbl.place(relx=0.299, rely=0.409, height=21, width=40)
         self.AM_lbl.configure(activebackground="#f9f9f9")
         self.AM_lbl.configure(activeforeground="black")
         self.AM_lbl.configure(background="#d9d9d9")
@@ -165,7 +169,7 @@ class Toplevel1:
         self.AM_lbl.configure(text='''A-''')
 
         self.BP_lbl = tk.Label(top)
-        self.BP_lbl.place(relx=0.368, rely=0.409, height=21, width=34)
+        self.BP_lbl.place(relx=0.342, rely=0.409, height=21, width=40)
         self.BP_lbl.configure(activebackground="#f9f9f9")
         self.BP_lbl.configure(activeforeground="black")
         self.BP_lbl.configure(background="#d9d9d9")
@@ -176,7 +180,7 @@ class Toplevel1:
         self.BP_lbl.configure(text='''B+''')
 
         self.B_lbl = tk.Label(top)
-        self.B_lbl.place(relx=0.402, rely=0.409, height=21, width=34)
+        self.B_lbl.place(relx=0.385, rely=0.409, height=21, width=40)
         self.B_lbl.configure(activebackground="#f9f9f9")
         self.B_lbl.configure(activeforeground="black")
         self.B_lbl.configure(background="#d9d9d9")
@@ -187,7 +191,7 @@ class Toplevel1:
         self.B_lbl.configure(text='''B''')
 
         self.F_lbl = tk.Label(top)
-        self.F_lbl.place(relx=0.641, rely=0.409, height=21, width=34)
+        self.F_lbl.place(relx=0.684, rely=0.409, height=21, width=40)
         self.F_lbl.configure(activebackground="#f9f9f9")
         self.F_lbl.configure(activeforeground="black")
         self.F_lbl.configure(background="#d9d9d9")
@@ -198,7 +202,7 @@ class Toplevel1:
         self.F_lbl.configure(text='''F''')
 
         self.CM_lbl = tk.Label(top)
-        self.CM_lbl.place(relx=0.538, rely=0.409, height=21, width=34)
+        self.CM_lbl.place(relx=0.556, rely=0.409, height=21, width=40)
         self.CM_lbl.configure(activebackground="#f9f9f9")
         self.CM_lbl.configure(activeforeground="black")
         self.CM_lbl.configure(background="#d9d9d9")
@@ -209,10 +213,11 @@ class Toplevel1:
         self.CM_lbl.configure(text='''C-''')
 
         self.AD_lbl = tk.Label(top)
-        self.AD_lbl.place(relx=0.299, rely=0.468, height=21, width=34)
+        self.AD_lbl.place(relx=0.256, rely=0.468, height=30, width=40)
         self.AD_lbl.configure(activebackground="#f9f9f9")
         self.AD_lbl.configure(activeforeground="black")
         self.AD_lbl.configure(background="#d9d9d9")
+        self.AD_lbl.configure(font=font10)
         self.AD_lbl.configure(disabledforeground="#a3a3a3")
         self.AD_lbl.configure(foreground="#000000")
         self.AD_lbl.configure(highlightbackground="#d9d9d9")
@@ -220,10 +225,11 @@ class Toplevel1:
         self.AD_lbl.configure(text='''Label''')
 
         self.AMD_lbl = tk.Label(top)
-        self.AMD_lbl.place(relx=0.333, rely=0.468, height=21, width=34)
+        self.AMD_lbl.place(relx=0.299, rely=0.468, height=30, width=40)
         self.AMD_lbl.configure(activebackground="#f9f9f9")
         self.AMD_lbl.configure(activeforeground="black")
         self.AMD_lbl.configure(background="#d9d9d9")
+        self.AMD_lbl.configure(font=font10)
         self.AMD_lbl.configure(disabledforeground="#a3a3a3")
         self.AMD_lbl.configure(foreground="#000000")
         self.AMD_lbl.configure(highlightbackground="#d9d9d9")
@@ -231,10 +237,11 @@ class Toplevel1:
         self.AMD_lbl.configure(text='''Label''')
 
         self.BPD_lbl = tk.Label(top)
-        self.BPD_lbl.place(relx=0.368, rely=0.468, height=21, width=34)
+        self.BPD_lbl.place(relx=0.342, rely=0.468, height=30, width=40)
         self.BPD_lbl.configure(activebackground="#f9f9f9")
         self.BPD_lbl.configure(activeforeground="black")
         self.BPD_lbl.configure(background="#d9d9d9")
+        self.BPD_lbl.configure(font=font10)
         self.BPD_lbl.configure(disabledforeground="#a3a3a3")
         self.BPD_lbl.configure(foreground="#000000")
         self.BPD_lbl.configure(highlightbackground="#d9d9d9")
@@ -242,10 +249,11 @@ class Toplevel1:
         self.BPD_lbl.configure(text='''Label''')
 
         self.BD_lbl = tk.Label(top)
-        self.BD_lbl.place(relx=0.402, rely=0.468, height=21, width=34)
+        self.BD_lbl.place(relx=0.385, rely=0.468, height=30, width=40)
         self.BD_lbl.configure(activebackground="#f9f9f9")
         self.BD_lbl.configure(activeforeground="black")
         self.BD_lbl.configure(background="#d9d9d9")
+        self.BD_lbl.configure(font=font10)
         self.BD_lbl.configure(disabledforeground="#a3a3a3")
         self.BD_lbl.configure(foreground="#000000")
         self.BD_lbl.configure(highlightbackground="#d9d9d9")
@@ -253,10 +261,11 @@ class Toplevel1:
         self.BD_lbl.configure(text='''Label''')
 
         self.BMD_lbl = tk.Label(top)
-        self.BMD_lbl.place(relx=0.436, rely=0.468, height=21, width=34)
+        self.BMD_lbl.place(relx=0.427, rely=0.468, height=30, width=40)
         self.BMD_lbl.configure(activebackground="#f9f9f9")
         self.BMD_lbl.configure(activeforeground="black")
         self.BMD_lbl.configure(background="#d9d9d9")
+        self.BMD_lbl.configure(font=font10)
         self.BMD_lbl.configure(disabledforeground="#a3a3a3")
         self.BMD_lbl.configure(foreground="#000000")
         self.BMD_lbl.configure(highlightbackground="#d9d9d9")
@@ -264,10 +273,11 @@ class Toplevel1:
         self.BMD_lbl.configure(text='''Label''')
 
         self.CPD_lbl = tk.Label(top)
-        self.CPD_lbl.place(relx=0.47, rely=0.468, height=21, width=34)
+        self.CPD_lbl.place(relx=0.47, rely=0.468, height=30, width=40)
         self.CPD_lbl.configure(activebackground="#f9f9f9")
         self.CPD_lbl.configure(activeforeground="black")
         self.CPD_lbl.configure(background="#d9d9d9")
+        self.CPD_lbl.configure(font=font10)
         self.CPD_lbl.configure(disabledforeground="#a3a3a3")
         self.CPD_lbl.configure(foreground="#000000")
         self.CPD_lbl.configure(highlightbackground="#d9d9d9")
@@ -275,10 +285,11 @@ class Toplevel1:
         self.CPD_lbl.configure(text='''Label''')
 
         self.CD_lbl = tk.Label(top)
-        self.CD_lbl.place(relx=0.504, rely=0.468, height=21, width=34)
+        self.CD_lbl.place(relx=0.513, rely=0.468, height=30, width=40)
         self.CD_lbl.configure(activebackground="#f9f9f9")
         self.CD_lbl.configure(activeforeground="black")
         self.CD_lbl.configure(background="#d9d9d9")
+        self.CD_lbl.configure(font=font10)
         self.CD_lbl.configure(disabledforeground="#a3a3a3")
         self.CD_lbl.configure(foreground="#000000")
         self.CD_lbl.configure(highlightbackground="#d9d9d9")
@@ -286,10 +297,11 @@ class Toplevel1:
         self.CD_lbl.configure(text='''Label''')
 
         self.CMD_lbl = tk.Label(top)
-        self.CMD_lbl.place(relx=0.538, rely=0.468, height=21, width=34)
+        self.CMD_lbl.place(relx=0.556, rely=0.468, height=30, width=40)
         self.CMD_lbl.configure(activebackground="#f9f9f9")
         self.CMD_lbl.configure(activeforeground="black")
         self.CMD_lbl.configure(background="#d9d9d9")
+        self.CMD_lbl.configure(font=font10)
         self.CMD_lbl.configure(disabledforeground="#a3a3a3")
         self.CMD_lbl.configure(foreground="#000000")
         self.CMD_lbl.configure(highlightbackground="#d9d9d9")
@@ -297,10 +309,11 @@ class Toplevel1:
         self.CMD_lbl.configure(text='''Label''')
 
         self.DPD_lbl = tk.Label(top)
-        self.DPD_lbl.place(relx=0.573, rely=0.468, height=21, width=34)
+        self.DPD_lbl.place(relx=0.598, rely=0.468, height=30, width=40)
         self.DPD_lbl.configure(activebackground="#f9f9f9")
         self.DPD_lbl.configure(activeforeground="black")
         self.DPD_lbl.configure(background="#d9d9d9")
+        self.DPD_lbl.configure(font=font10)
         self.DPD_lbl.configure(disabledforeground="#a3a3a3")
         self.DPD_lbl.configure(foreground="#000000")
         self.DPD_lbl.configure(highlightbackground="#d9d9d9")
@@ -319,10 +332,11 @@ class Toplevel1:
         self.course_name_lbl.configure(text='''Course''')
 
         self.DD_lbl = tk.Label(top)
-        self.DD_lbl.place(relx=0.607, rely=0.468, height=21, width=34)
+        self.DD_lbl.place(relx=0.641, rely=0.468, height=30, width=40)
         self.DD_lbl.configure(activebackground="#f9f9f9")
         self.DD_lbl.configure(activeforeground="black")
         self.DD_lbl.configure(background="#d9d9d9")
+        self.DD_lbl.configure(font=font10)
         self.DD_lbl.configure(disabledforeground="#a3a3a3")
         self.DD_lbl.configure(foreground="#000000")
         self.DD_lbl.configure(highlightbackground="#d9d9d9")
@@ -330,10 +344,11 @@ class Toplevel1:
         self.DD_lbl.configure(text='''Label''')
 
         self.FD_lbl = tk.Label(top)
-        self.FD_lbl.place(relx=0.641, rely=0.468, height=21, width=34)
+        self.FD_lbl.place(relx=0.684, rely=0.468, height=30, width=40)
         self.FD_lbl.configure(activebackground="#f9f9f9")
         self.FD_lbl.configure(activeforeground="black")
         self.FD_lbl.configure(background="#d9d9d9")
+        self.FD_lbl.configure(font=font10)
         self.FD_lbl.configure(disabledforeground="#a3a3a3")
         self.FD_lbl.configure(foreground="#000000")
         self.FD_lbl.configure(highlightbackground="#d9d9d9")
@@ -344,35 +359,23 @@ class Toplevel1:
         self.TSeparator1.place(relx=-0.137, rely=0.351, relheight=0.292)
         self.TSeparator1.configure(orient="vertical")
 
-        self.show_probability(self.list_of_grades)
+        self.show_probability(self.course_name, self.list_of_grades)
 
-    def show_probability(self, list_of_grades):
+    def show_probability(self, course_name, list_of_grades):
         if list_of_grades is None:
             return
-        count = 0
-        self.course_name_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.AD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.AMD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.BPD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.BD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.BMD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.CPD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.CD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.CMD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.DPD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.DD_lbl.configure(text=list_of_grades[count])
-        count = + 1
-        self.FD_lbl.configure(text=list_of_grades[count])
+        self.course_name_lbl.configure(text=course_name)
+        self.AD_lbl.configure(text="{:.2%}".format(list_of_grades[10]))
+        self.AMD_lbl.configure(text="{:.2%}".format(list_of_grades[9]))
+        self.BPD_lbl.configure(text="{:.2%}".format(list_of_grades[8]))
+        self.BD_lbl.configure(text="{:.2%}".format(list_of_grades[7]))
+        self.BMD_lbl.configure(text="{:.2%}".format(list_of_grades[6]))
+        self.CPD_lbl.configure(text="{:.2%}".format(list_of_grades[5]))
+        self.CD_lbl.configure(text="{:.2%}".format(list_of_grades[4]))
+        self.CMD_lbl.configure(text="{:.2%}".format(list_of_grades[3]))
+        self.DPD_lbl.configure(text="{:.2%}".format(list_of_grades[2]))
+        self.DD_lbl.configure(text="{:.2%}".format(list_of_grades[1]))
+        self.FD_lbl.configure(text="{:.2%}".format(list_of_grades[0]))
         return
 
 if __name__ == '__main__':

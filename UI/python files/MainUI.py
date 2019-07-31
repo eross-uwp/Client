@@ -1,3 +1,5 @@
+import os
+
 import pandas as pd
 from TreeScripts.TreeMaker import TreeMaker
 
@@ -16,11 +18,11 @@ except ImportError:
 __COMBINED_COURSE_STRUCTURE_FILEPATH = '..\\Data\\combined_course_structure.csv'
 
 
-
-def fill_course_list(course_list_slb):
-    courses = pd.read_csv('..\\Data\\unique_courses.csv')
-    for each_course in courses['courses'].values:
-        course_list_slb.insert(tk.END, each_course)
+def fill_course_list(course_list_slb, model_type):
+    count = 0
+    for filename in os.listdir('..\\Data\\models\\' + 'GBT_model_' + model_type):
+        course_list_slb.insert(count, filename[:-4])
+        count = + 1
 
 
 def get_prereqs(prereq_type, course_name):
@@ -54,8 +56,4 @@ def check_duplicates(prereqs, course):
         if course == item:
             return False
     return True
-
-def tt():
-    print('aaa')
-
 

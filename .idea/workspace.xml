@@ -2,16 +2,139 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="177a2598-b943-45aa-8d10-f00c4a0983f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_all.eross" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_imme.eross" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/UI/Data/models/LR_model_root.eross" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/Client.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Client.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Applications in Information Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Artificial Intelligence.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Calculus and Analytic Geometry I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Calculus and Analytic Geometry II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Calculus and Analytic Geometry III.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Circuit Modeling I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/College Algebra.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/College Writing II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Computer ArchitectureOperating Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Computer Graphics.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Corporate Finance.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Data Communications and Computer Networks.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Database Design and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Discrete Mathematics.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/General Physics I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/General Physics II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Intermediate Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Introduction to Computer Security.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Introduction to Microprocessors.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Introduction to Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Logic and Digital Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Management Accounting.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Object Oriented Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/ObjectOriented Programming and Data Structures I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/ObjectOriented Programming and Data Structures II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Operations Management.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Organizational Behavior.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Programming Language Structures.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Quality Management.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/RealTime Embedded Systems Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Software Engineering Project I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Software Engineering Project II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Software Maintenance and Reengineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Software Quality.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Statistical Methods with Applications.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Systems Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Systems Development and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Technical Writing.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Trigonometry and Analytic Geometry.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_all/Windows Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Applications in Information Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Artificial Intelligence.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Calculus and Analytic Geometry I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Calculus and Analytic Geometry II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Calculus and Analytic Geometry III.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Circuit Modeling I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/College Algebra.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/College Writing II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Computer ArchitectureOperating Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Computer Graphics.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Corporate Finance.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Data Communications and Computer Networks.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Database Design and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Discrete Mathematics.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/General Physics I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/General Physics II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Intermediate Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Introduction to Computer Security.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Introduction to Microprocessors.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Introduction to Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Logic and Digital Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Management Accounting.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Object Oriented Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/ObjectOriented Programming and Data Structures I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/ObjectOriented Programming and Data Structures II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Organizational Behavior.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Programming Language Structures.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Quality Management.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/RealTime Embedded Systems Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Software Engineering Project I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Software Engineering Project II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Software Maintenance and Reengineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Software Quality.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Statistical Methods with Applications.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Systems Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Systems Development and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Technical Writing.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Trigonometry and Analytic Geometry.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme/Windows Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Applications in Information Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Artificial Intelligence.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/College Writing II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Computer ArchitectureOperating Systems.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Computer Graphics.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Corporate Finance.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Data Communications and Computer Networks.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Database Design and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Intermediate Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Introduction to Computer Security.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Introduction to Microprocessors.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Introduction to Software Engineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Logic and Digital Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Management Accounting.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Object Oriented Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/ObjectOriented Programming and Data Structures I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/ObjectOriented Programming and Data Structures II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Organizational Behavior.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Programming Language Structures.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Quality Management.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/RealTime Embedded Systems Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Software Engineering Project I.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Software Engineering Project II.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Software Maintenance and Reengineering.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Software Quality.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Systems Analysis and Design.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Systems Development and Implementation.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Technical Writing.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_root/Windows Programming.pkl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/UI/MainUIBuilder2tcl" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UI/Data/unique_courses.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/unique_courses.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/combined_course_structure.csv" beforeDir="false" afterPath="$PROJECT_DIR$/UI/Data/combined_course_structure.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/GBT_model_all.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/GBT_model_imme.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/GBT_model_root.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/LR_model_all.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/LR_model_imme.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/models/LR_model_root.eross" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/Data/unique_courses.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder.tcl" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/MainUIBuilder_support.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak1" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak1" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak2" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak3" beforeDir="false" afterPath="$PROJECT_DIR$/UI/page file/Prediction Page.tcl.bak3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/python files/MainUI.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUI.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/MainUIBuilder_support.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/Pred.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/Pred.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/Pred_S.py" beforeDir="false" afterPath="$PROJECT_DIR$/UI/python files/Pred_S.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/MainUI.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/ttt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/UI/python files/newtest/ttt_support.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -188,9 +311,9 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.MainUIBuilder" />
+        <item itemvalue="Python.Pred_S" />
         <item itemvalue="Python.Pred" />
         <item itemvalue="Python.ttt (1)" />
-        <item itemvalue="Python.Pred_S" />
         <item itemvalue="Python.ttt_support" />
       </list>
     </recent_temporary>
@@ -206,6 +329,7 @@
       <option name="presentableId" value="Default" />
       <updated>1563304541493</updated>
       <workItem from="1564429363215" duration="3726000" />
+      <workItem from="1564580692589" duration="16882000" />
     </task>
     <servers />
   </component>
@@ -232,24 +356,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UI/python files/Pred_S.py</url>
-          <line>35</line>
-          <option name="timeStamp" value="19" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UI/python files/Pred.py</url>
-          <line>370</line>
-          <option name="timeStamp" value="20" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
-          <line>382</line>
-          <option name="timeStamp" value="31" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/UI/python files/MainUIBuilder.py</url>
-          <line>380</line>
-          <option name="timeStamp" value="32" />
+          <line>429</line>
+          <option name="timeStamp" value="39" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -261,8 +370,9 @@
     </watches-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/Client$Pred.coverage" NAME="Pred Coverage Results" MODIFIED="1564429986131" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
+    <SUITE FILE_PATH="coverage/Client$Pred.coverage" NAME="Pred Coverage Results" MODIFIED="1564588400826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
     <SUITE FILE_PATH="coverage/Client$ttt__1_.coverage" NAME="ttt (1) Coverage Results" MODIFIED="1564429434070" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI" />
-    <SUITE FILE_PATH="coverage/Client$MainUIBuilder.coverage" NAME="MainUIBuilder Coverage Results" MODIFIED="1564433135082" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
+    <SUITE FILE_PATH="coverage/Client$Pred_S.coverage" NAME="Pred_S Coverage Results" MODIFIED="1564600271489" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
+    <SUITE FILE_PATH="coverage/Client$MainUIBuilder.coverage" NAME="MainUIBuilder Coverage Results" MODIFIED="1564600278894" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/UI/python files" />
   </component>
 </project>
