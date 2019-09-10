@@ -449,10 +449,10 @@ class Toplevel1:
                     X.at[0, course] = self.convert_grade(self.prereq_storage[index])
 
                 X['cumulative_gpa'] = ''
-                X.at[0, 'cumulative_gpa'] = int(self.cumulativegpa_ety.get())
+                X.at[0, 'cumulative_gpa'] = float(self.cumulativegpa_ety.get())
 
                 X['prev_term_gpa'] = ''
-                X.at[0, 'prev_term_gpa'] = int(self.termgpa_ety.get())
+                X.at[0, 'prev_term_gpa'] = float(self.termgpa_ety.get())
 
                 X['struggle'] = ''
                 X.at[0, 'struggle'] = self.determine_struggle(self.struggled_combobox.get())
